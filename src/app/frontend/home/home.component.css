@@ -1,0 +1,17 @@
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flexbox-container > div {
+	width: 50%;
+	padding: 10px;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10%;
+}
