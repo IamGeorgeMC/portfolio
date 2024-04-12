@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-/*<uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 300 to 700*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     color-scheme: light dark;
 }
@@ -16,7 +17,7 @@ html{
 }
 
 body {
-    color: rgba(17, 17, 17, 0.9);
+    background: #000;
     display: flex;
     justify-content: center;
     /*flex-direction: column;
