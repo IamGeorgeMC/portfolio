@@ -96,3 +96,8 @@ section {
   .btn-container {
     gap: 1rem;
   }
+
+  /*About*/
+  .about {
+    position: relative;
+  }
